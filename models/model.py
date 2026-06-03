@@ -4,7 +4,6 @@ import joblib
 
 data = pd.read_csv('data/house_data.csv')
 
-
 x = data[['area']]
 y = data['price']
 
